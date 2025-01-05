@@ -1,3 +1,4 @@
+import 'package:animation_examples/explicit_animation/beam_spaceship.dart';
 import 'package:animation_examples/explicit_animation/black_hole_spin.dart';
 import 'package:animation_examples/implicit_animation/fade_in_anim.dart';
 import 'package:animation_examples/implicit_animation/shape_shifting.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BlackHoleSpin(),
+      home: const BeamSpaceship(),
     );
   }
 }
